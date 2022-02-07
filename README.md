@@ -1,4 +1,4 @@
-# npy2x
+# npy-converter
 
 * Matrix Data Converter.
 * Expand matrix for multi-thread, multi-process
