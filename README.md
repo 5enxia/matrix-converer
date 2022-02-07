@@ -38,10 +38,10 @@ python3 mtx2npz.py example/matrix.mtx bsr|csr|coo|dia|dok|lil
 ```bash
 python3 npz2npy.py example/matrix.npz
 ```
-
+****
 ### Expander
 
-* .npy: (56, 56) -> l(64, 64)')
+* .npy: (56, 56) -> (64, 64))
 
 ```bash
 python3 expandnpy.py example/matrix.npy 16
@@ -61,7 +61,7 @@ python3 expandnpz.py example/matrix.npz bsr|csr|coo|dia|dok|lil 16
 python3 divnpy2n.py example/matrix.16.npy 4
 ```
 
-* .npz: (56, 56) -> 4*(14, 64))
+* .npz: (56, 56) -> 4*(16, 64))
 
 ```bash
 python3 divnpz2n.py example/matrix.16.npz 4 
